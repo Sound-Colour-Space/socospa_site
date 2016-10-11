@@ -5,7 +5,7 @@
 <head>
 
 	<!-- title and definitions -->
-	<title>Sound Colour Space - A Virtual Museum</title>
+	<title>Sound Colour Space</title>
 	
 	<!-- Metadaten der Page -->
 	<meta charset="UTF-8">
@@ -22,7 +22,7 @@
 	</script>
 	<![endif]-->
 	
-	<link rel="stylesheet" type="text/css" href="scsp.css">
+	<!--<link rel="stylesheet" type="text/css" href="css/scsp.css"> -->
 
 	
 </head>
@@ -50,32 +50,47 @@
 
 	<ul id = "navigation">
 		
-		<li><a href="vimu_start.html" target="_self">Virtual Museum</a></li>
-
-		<li><a href="archiv.html" target="_self">Archiv</a></li>
-		
-		<li><a href="collections.html" target="_self">Collections</a></li>
-	
-		<li><a href="exhibtions.html" target="_self">Exhibitions</a>
+		<!-- virtual museum and virtual lab -->
+		<li><a href="vimu_start.html" target="_self">Virtual Museum<span class="pfeil">-></span></a> 
 			<ul>
-				<li><a href="vimu_presentation.html" target="_self">Presentation</a></li>
-				<li><a href="vimu_editor.html" target="_self">Editor</a></li>
-			</ul>
-		</li>
-		
-		<li><a class="last" href="vilab_start.html" target="_self">Virtual Lab</a>
-		<!-- "testsites.html" - "examples.html" -->
-			<ul>
-				<li><a href="vilab_testsites.html" target="_self">Testsites</a></li>
-				<li><a href="vilab_examples.html" target="_self">Examples</a></li>
-				<li><a href="vilab_editor.html" target="_self">Editor
+				<li><a class="last" href="vilab_start.html" target="_self">Virtual Lab
+					<span class="pfeil">-></span></a>
+					<!-- "vilab_testsites.html" - "vilab_examples.html" - "vilab_editor.html"-->
+					<ul>
+						<li><a href="vilab_testsites.html" target="_self">Testsites</a></li>
+						<li><a href="vilab_examples.html" target="_self">Examples</a></li>
+						<li><a href="vilab_editor.html" target="_self">Edit</a></li>
+										
+					</ul>
 				</li>
-								
+			</ul>
+		</li>
+			
+
+		<li><a href="archiv.html" target="_self">Archiv</a>
+
+			<ul>
+				<li><a href="vimu_archiv.html" target="_self">View</a></li>
+				<li><a href="vimu_archiv_filter.html" target="_self">Search</a></li>
+			</ul>
+		</li>
+		
+		<li><a href="collections.html" target="_self">Collections</a>
+			<ul>
+				<li><a href="vimu_collection.html" target="_self">View</a></li>
+				<li><a href="vimu_collection_edit.html" target="_self">Edit</a></li>
+			</ul>
+		</li>
+	
+		<li><a href="exhibtions.html" target="_self">Exhibitions<span class="pfeil">-></span></a>
+			<ul>
+				<li><a href="vimu_exhibition.html" target="_self">View</a></li>
+				<li><a href="vimu_exhibition.html" target="_self">Edit</a></li>
 			</ul>
 		</li>
 
-		<li><a href="documentation.html" target="_self">Documentation</a> 
-			<!-- "administration.html", "documentation.html"  und "conference.html" einbauen -->
+		<li><a href="documentation.html" target="_self">Documentation<span class="pfeil">-></span></a> 
+			<!-- documentations sites, maybe also for the virtual museum -->
 			<ul>
 			<li><a href="doc_team.html" target="_self">Team</a></li>
 			<li><a href="doc_dates.html" target="_self">Dates</a></li>
@@ -83,6 +98,8 @@
 			<li><a href="doc_technology.html" target="_self">Technology</a></li>
 			</ul>	
 		</li>
+
+		
 	
 	</ul>
 	
