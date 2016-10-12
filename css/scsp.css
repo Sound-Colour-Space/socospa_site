@@ -64,7 +64,7 @@ main {
 header {
 	/*background: #ffffff url("images/socospa3.jpg") no-repeat right top;*/
 	background-color: black;
-	background-image: url("images/socospa7.jpg");
+	background-image: url("../images/socospa7.jpg");
 	background-repeat: no-repeat;
 	background-position: left top;
 	color: white;
